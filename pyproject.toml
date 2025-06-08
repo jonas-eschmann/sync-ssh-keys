@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sync-ssh-keys"
-version = "0.0.2"
+version = "0.0.3"
 description = "Sync SSH keys from GitHub"
 readme = "README.md"
 authors = [{name = "Jonas Eschmann", email = "jonas.eschmann@gmail.com"}]

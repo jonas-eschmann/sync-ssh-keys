@@ -6,9 +6,6 @@ import pathlib
 import urllib.error
 import urllib.request
 
-__all__ = ["fetch_keys", "update_authorized_keys", "main"]
-__version__ = "0.1.0"
-
 def fetch_keys(username):
     url = f"https://api.github.com/users/{username}/keys"
     try:
