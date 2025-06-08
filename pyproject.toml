@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sync-ssh-keys"
+version = "0.0.1"
+description = "Sync SSH keys from GitHub"
+readme = "README.md"
+authors = [{name = "Jonas Eschmann", email = "jonas.eschmann@gmail.com"}]
+license = {text = "MIT"}
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jonas-eschmann/sync-ssh-keys"
+
+[project.scripts]
+sync-ssh-keys = "sync_ssh_keys:main"
