@@ -13,6 +13,7 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/jonas-eschmann/sync-ssh-keys"
+Repository = "https://github.com/jonas-eschmann/sync-ssh-keys"
 
 [project.scripts]
 sync-ssh-keys = "sync_ssh_keys:main"
